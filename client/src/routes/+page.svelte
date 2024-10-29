@@ -139,7 +139,7 @@
               alt="Playlist thumbnail"
               class="w-full h-full object-cover"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
             <div class="absolute bottom-0 left-0 right-0 p-6 space-y-3">
               <h2 class="text-2xl font-bold text-white font-heading">
                 {playlistData.title}
@@ -192,7 +192,6 @@
 
         <!-- Download Button -->
         <Button 
-          on:click={handleDownload} 
           disabled={isDownloading}
           class="w-full h-12 text-base"
           size="lg"
